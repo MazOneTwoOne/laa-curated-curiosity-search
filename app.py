@@ -66,12 +66,16 @@ def ask_question(question):
         }
     )
     return response["llm"]["replies"][0]
-  
+
+
+css = 'gradio.scss'
+
 # Create Gradio interface
 gr_interface = gr.Interface(
     fn=ask_question,
-    inputs=gr.components.Textbox(lines=2, placeholder="Enter your question here..."),
-    outputs="text"
+    inputs=gr.components.Textbox(lines=2, placeholder="Type to Explore"),
+    outputs="text",
+    css=css
 )
 
 gr_interface.launch()
