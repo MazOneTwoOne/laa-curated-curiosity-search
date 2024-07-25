@@ -1,17 +1,106 @@
 .gradio-container {
-  background: rgb(0, 166, 228);
+  background: white
 }
 
 body {
   font-family: Arial, sans-serif;
 }
 
-button {
-  font-family: "GDS Transport";
+html {
+  font-family: "GDS Transport" !important;
   font-style: normal;
-  font-weight: normal;
   src: url("/file=assets/fonts/light-f591b13f7d-v2.woff") format("woff2");
   font-display: fallback
+}
+
+
+h1 {
+  color: black;
+  background-color: white;
+  box-shadow: none;
+}
+
+.primary.svelte-cmf5ev {
+  font-family: GDS Transport, arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.1875;
+  box-sizing: border-box;
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  margin: 0 0 22px;
+  padding: 8px 10px 7px;
+  border: 2px solid transparent;
+  color: #fff;
+  border-radius: 0;
+  background: #00703c;
+  box-shadow: 0 2px 0 #002d18;
+  text-align: center;
+  vertical-align: top;
+  cursor: pointer;
+}
+
+.secondary.svelte-cmf5ev {
+  font-family: GDS Transport, arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.1875;
+  box-sizing: border-box;
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  margin: 0 0 22px;
+  padding: 8px 10px 7px;
+  border: 2px solid transparent;
+  border-radius: 0;
+  box-shadow: 0 2px 0 #002d18;
+  text-align: center;
+  vertical-align: top;
+  cursor: pointer;
+}
+
+.compact.svelte-vt1mxs, .panel.svelte-vt1mxs {
+  border: solid var(--panel-border-width) var(--panel-border-color);
+  background: var(--panel-background-fill);
+  border-radius: 0px;
+  padding: var(--spacing-lg);
+}
+
+
+.panel.svelte-vt1mxs {
+  border: solid var(--panel-border-width) var(--panel-border-color);
+  background: none;
+  border-radius: 0px;
+  padding: var(--spacing-lg);
+}
+
+div.svelte-sa48pu {
+  display: block;
+  /* flex-wrap: wrap; */
+  /* gap: var(--layout-gap); */
+  /* width: var(--size-full); */
+  position: relative;
+}
+
+.block.svelte-12cmxck {
+  position: relative;
+  margin: 0;
+  box-shadow: var(--block-shadow);
+  border-width: var(--block-border-width);
+  border-color: var(--block-border-color);
+  border-radius: var(--block-radius);
+  background: #e9426d;
+  width: 100%;
+  line-height: var(--line-sm);
+}
+
+span.svelte-1gfkn6j {
+  color: white
 }
 
 .app-prose-scope a,

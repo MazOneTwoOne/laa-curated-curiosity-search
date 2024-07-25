@@ -83,6 +83,7 @@ gr_interface = gr.Interface(
     fn=ask_question,
     inputs=gr.components.Textbox(lines=2, placeholder="Type to Explore"),
     outputs="text",
+    title="Explore",
     css=css
 )
 
