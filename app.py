@@ -12,7 +12,6 @@ from haystack_integrations.components.generators.ollama import OllamaGenerator
 import gradio as gr
 
 # Load dataset and create documents
-# https://huggingface.co/datasets/bilgeyucel/seven-wonders/viewer - this is what this dataset looks like
 dataset = load_dataset("bilgeyucel/seven-wonders", split="train") # modify this line to import own csv file
 docs = [Document(content=doc["content"], meta=doc["meta"]) for doc in dataset]
 

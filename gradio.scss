@@ -1,3 +1,14 @@
 .gradio-container {
   background: rgb(0, 166, 228)
 }
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.gradio-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

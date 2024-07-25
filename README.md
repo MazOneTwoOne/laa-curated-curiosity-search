@@ -42,3 +42,4 @@ pip install pandas
 - https://mer.vin/2024/01/haystack-ai-to-create-rag-pipeline/
 - https://aws.amazon.com/what-is/retrieval-augmented-generation/
 - https://docs.haystack.deepset.ai/docs/ollamagenerator this resource used to debug
+- https://huggingface.co/datasets/bilgeyucel/seven-wonders/viewer
