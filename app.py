@@ -86,4 +86,4 @@ gr_interface = gr.Interface(
     css=css
 )
 
-gr_interface.launch()
+gr_interface.launch(allowed_paths=["assets/fonts/light-f591b13f7d-v2.woff"])
