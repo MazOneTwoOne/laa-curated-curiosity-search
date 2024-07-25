@@ -1,5 +1,3 @@
-# This a RAG (Retrieval-Augmented Generation) application: https://aws.amazon.com/what-is/retrieval-augmented-generation/
-
 # Importing required libraries
 from datasets import load_dataset
 from haystack import Document, Pipeline
