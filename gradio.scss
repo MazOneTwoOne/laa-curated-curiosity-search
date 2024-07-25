@@ -10,7 +10,13 @@ html {
   font-family: "GDS Transport" !important;
   font-style: normal;
   src: url("/file=assets/fonts/light-f591b13f7d-v2.woff") format("woff2");
-  font-display: fallback
+  font-display: fallback;
+  max-width: 960px;
+  margin-right: 15px;
+  margin-left: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
 }
 
 
