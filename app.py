@@ -81,7 +81,7 @@ css = 'gradio.scss'
 # Create Gradio interface
 gr_interface = gr.Interface(
     fn=ask_question,
-    inputs=gr.components.Textbox(lines=2, placeholder="Type to Explore"),
+    inputs=gr.components.Textbox(lines=3, placeholder="Type to Explore"),
     outputs=gr.components.Textbox(lines=6),
     clear_btn=gr.ClearButton(visible=False),
     title="'Explore' component",
