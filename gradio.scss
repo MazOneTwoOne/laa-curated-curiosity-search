@@ -19,7 +19,6 @@ html {
   align-items: stretch;
 }
 
-
 h1 {
   color: black;
   background-color: white;
@@ -57,7 +56,7 @@ h1 {
   font-size: 1rem;
   line-height: 1.1875;
   box-sizing: border-box;
-  display: inline-block;
+  display: none;
   position: relative;
   width: 100%;
   margin: 0 0 22px;
@@ -69,6 +68,11 @@ h1 {
   vertical-align: top;
   cursor: pointer;
 }
+
+.svelte-sa48pu{
+  display: flex;
+}
+
 
 .compact.svelte-vt1mxs, .panel.svelte-vt1mxs {
   border: solid var(--panel-border-width) var(--panel-border-color);
@@ -117,6 +121,12 @@ span.svelte-1gfkn6j {
   text-decoration: underline;
   text-decoration-thickness: max(1px, .0625rem);
   text-underline-offset: .1em
+}
+
+
+.svelte-gq7qsu{
+  background: white;    
+  color: black;
 }
 
 /*! Copyright (c) 2011 by Margaret Calvert & Henrik Kubel. All rights reserved. The font has been customised for exclusive use on gov.uk. This cut is not commercially available. */

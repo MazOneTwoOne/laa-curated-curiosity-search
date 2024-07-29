@@ -82,8 +82,12 @@ css = 'gradio.scss'
 gr_interface = gr.Interface(
     fn=ask_question,
     inputs=gr.components.Textbox(lines=2, placeholder="Type to Explore"),
-    outputs="text",
-    title="Explore",
+    outputs=gr.components.Textbox(lines=6),
+    clear_btn=gr.ClearButton(visible=False),
+    title="'Explore' component",
+    submit_btn="Explore",
+    allow_flagging="never",
+    description="This a [RAG (Retrieval-Augmented Generation) application](https://aws.amazon.com/what-is/retrieval-augmented-generation/). It uses [Haystack (by deepset)](https://haystack.deepset.ai/) as the Open Source AI Framework to orchestrate the tools. The tools include: a way to manange our [LLM (olllama)](https://ollama.com/); with a [LLM model (mistral)](https://docs.mistral.ai/getting-started/models/); to interrogate some data (a CSV file, in this case); via a [UI (gradio)](https://www.gradio.app/).",
     css=css
 )
 

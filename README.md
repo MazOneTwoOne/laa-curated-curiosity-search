@@ -2,9 +2,9 @@
 - This a [RAG (Retrieval-Augmented Generation) application](https://aws.amazon.com/what-is/retrieval-augmented-generation/)
 - It uses [Haystack (by deepset)](https://haystack.deepset.ai/) as the Open Source AI Framework to orchestrate the tools
 - The tools include:
-  - an [LLM (ollama)](https://ollama.com/)
-  - with a [model (mistral)](https://docs.mistral.ai/getting-started/models/)
-  - to interrogate some data (https://huggingface.co/datasets/bilgeyucel/seven-wonders)
+  - a way to manange our [LLM (olllama)](https://ollama.com/)
+  - with a [LLM model (mistral)](https://docs.mistral.ai/getting-started/models/)
+  - to interrogate some data (a CSV file, in this case)
   - via a [UI (gradio)](https://www.gradio.app/)
 
 ## Setup
